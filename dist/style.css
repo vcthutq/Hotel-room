@@ -1,5 +1,17 @@
-span {
-  color: yellow; }
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1400px;
+  border: 1px solid red; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  border: 1px solid black; }
+
+input {
+  width: 500px;
+  height: 44px; }
 
 .first {
   color: green; }

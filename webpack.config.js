@@ -5,6 +5,7 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 
+
 module.exports = {
   entry: './src/Landing_page.js',
   output: {
@@ -29,7 +30,7 @@ module.exports = {
       template: './src/Landing_page.pug'
     }),
     new MiniCssExtractPlugin({
-      filename: 'style.css'
+      filename: 'style.css' 
     })
   ],
   module: {
@@ -44,7 +45,7 @@ module.exports = {
       },
       {
         test: /\.pug$/,
-        use: ['pug-loader'],
+        use: ['pug-loader']
         
       },
       {
