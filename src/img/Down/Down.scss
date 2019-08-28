@@ -1,0 +1,13 @@
+svg {
+    width: 44px;
+    height: 35px;
+    //border: 1px solid red;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+
+    line {
+        position: absolute;
+        stroke: rgba(31, 32, 65, 0.5);
+    }
+}

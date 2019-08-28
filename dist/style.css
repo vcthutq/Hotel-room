@@ -29,19 +29,41 @@ input:hover::-webkit-input-placeholder,
 input:focus::-webkit-input-placeholder {
   color: rgba(31, 32, 65, 0.75); }
 
-select {
-  position: absolute;
-  width: 320px;
-  height: 44px;
-  left: 141px;
-  top: 331.44px;
-  background: #FFFFFF;
-  border: 1px solid rgba(31, 32, 65, 0.25);
+svg {
+  width: 44px;
+  height: 35px;
+  float: right;
   box-sizing: border-box;
-  border-radius: 4px;
-  color: rgba(31, 32, 65, 0.75);
-  font-size: 14px;
-  line-height: 24px; }
+  position: relative; }
+  svg line {
+    position: absolute;
+    stroke: rgba(31, 32, 65, 0.5); }
+
+div.dropdown {
+  position: absolute;
+  left: 141px;
+  top: 331.44px; }
+  div.dropdown button {
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: rgba(31, 32, 65, 0.75);
+    font-size: 14px;
+    line-height: 24px; }
+  div.dropdown ul {
+    width: 320px;
+    height: 159px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px; }
+    div.dropdown ul li {
+      list-style-image: none;
+      margin-top: 9%; }
 
 button[name="Click_me"] {
   position: absolute;
@@ -80,8 +102,12 @@ button[name="gotopay"] {
 
 .checkbox {
   position: absolute;
-  top: 250px;
-  left: 300px; }
+  top: 200px;
+  left: 500px; }
+  .checkbox span {
+    margin-left: 10px; }
+    .checkbox span.end {
+      margin-left: 27px; }
 
 .first {
   color: green; }
