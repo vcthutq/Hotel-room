@@ -1,0 +1,46 @@
+div.dropdown {
+position: absolute;
+left: 141px;
+top: 331.44px;
+    button {
+        width: 320px;
+        height: 44px;
+        background: #FFFFFF;
+        text-align: left;
+        padding-left: 5%;
+        padding-top: 2.5%;
+        //border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 4px;
+        color: rgba(31, 32, 65, 0.75);
+        font-size: 14px;
+        line-height: 24px;
+
+            svg {
+                width: 44px;
+                height: 35px;
+                //border: 1px solid red;
+                float: right;
+                box-sizing: border-box;
+                position: relative;
+
+                line {
+                    position: absolute;
+                    stroke: rgba(31, 32, 65, 0.5);
+                }
+            }
+    }
+
+    ul {
+        width: 320px;
+        height: 159px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 4px;
+
+        li {
+            list-style-image: none;
+            margin-top: 9%;
+        }
+    }
+}

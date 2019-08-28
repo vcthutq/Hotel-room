@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  max-width: 1400px;
+  max-width: 1440px;
   border: 1px solid red; }
 
 .wrapper {
@@ -9,9 +9,79 @@ body {
   width: 1000px;
   border: 1px solid black; }
 
-input {
-  width: 500px;
-  height: 44px; }
+input[type="text"] {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 141px;
+  top: 163px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 2%; }
+
+input::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+  color: rgba(31, 32, 65, 0.25); }
+
+input:hover::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder {
+  color: rgba(31, 32, 65, 0.75); }
+
+select {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 141px;
+  top: 331.44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: rgba(31, 32, 65, 0.75);
+  font-size: 14px;
+  line-height: 24px; }
+
+button[name="Click_me"] {
+  position: absolute;
+  width: 99px;
+  height: 44px;
+  left: 880px;
+  top: 262px;
+  background-color: #BC9CFF;
+  color: #ffffff;
+  border-radius: 22px;
+  font-style: bold;
+  font-size: 12px;
+  line-height: 14.63px; }
+
+button[name="Click_me"]:hover {
+  background-color: #fff;
+  color: #BC9CFF; }
+
+button[name="gotopay"] {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 880px;
+  top: 456px;
+  background-color: #BC9CFF;
+  color: #ffffff;
+  border-radius: 22px;
+  font-style: bold;
+  font-size: 12px;
+  line-height: 15px; }
+
+.radio {
+  position: absolute;
+  left: 591px;
+  top: 348px; }
+
+.checkbox {
+  position: absolute;
+  top: 250px;
+  left: 300px; }
 
 .first {
   color: green; }

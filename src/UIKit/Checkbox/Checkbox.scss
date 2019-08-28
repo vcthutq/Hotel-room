@@ -1,0 +1,16 @@
+.checkbox {
+	
+	position: absolute;
+	top: 200px;
+	left: 500px;
+
+	span {
+	margin-left: 10px;
+	
+		&.end {
+		margin-left: 27px;
+		}
+	}
+
+}
+

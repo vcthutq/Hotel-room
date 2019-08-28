@@ -1,5 +1,5 @@
 
-input {
+input[type="text"] {
 	position: absolute;
 	width: 320px;
 	height: 44px;
@@ -9,5 +9,15 @@ input {
 	border: 1px solid rgba(31, 32, 65, 0.25);
 	box-sizing: border-box;
 	border-radius: 4px;
-	
+	padding-left: 2%;
+}
+
+input::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+	color: rgba(31, 32, 65, 0.25);
+}
+
+input:hover::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder {
+	color: rgba(31, 32, 65, 0.75);
 }

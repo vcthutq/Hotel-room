@@ -1,0 +1,18 @@
+button[name="Click_me"] {
+	position: absolute;
+	width: 99px;
+	height: 44px;
+	left: 880px;
+	top: 262px;
+	background-color: #BC9CFF;
+	color: #ffffff;
+	border-radius: 22px;
+	font-style: bold;
+	font-size: 12px;
+	line-height: 14.63px;
+}
+
+button[name="Click_me"]:hover {
+	background-color: #fff;
+	color: #BC9CFF;
+}
