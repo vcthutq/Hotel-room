@@ -99,6 +99,8 @@ button[name="gotopay"] {
   position: absolute;
   left: 591px;
   top: 348px; }
+  .radio input[type='radio'] {
+    display: inline; }
 
 .checkbox {
   position: absolute;
